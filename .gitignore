@@ -1,0 +1,8 @@
+node_modules
+.terraform
+.terraform.lock.hcl
+package-lock.json
+package.json
+terraform.tfstate
+terraform.tfstate.backup
+Terra-Mumbai-Key.pem
