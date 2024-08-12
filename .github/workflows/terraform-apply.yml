@@ -12,7 +12,7 @@ env:
 
 jobs:
     terraform:
-        if: github.repository == '/ErDevanshgupta/Chat-App'
+        if: github.repository != 'https://github.com/ErDevanshgupta/Chat-App'
         name: "Terraform Apply"
         runs-on: ubuntu-latest
         permissions:
